@@ -91,5 +91,6 @@ void			ft_list_push_front(t_list **begin_list, void *data, size_t size);
 void			ft_list_push_back(t_list **begin_list, void *data, size_t size);
 int				ft_list_size(t_list *begin_list);
 void			ft_list_addone(t_list *elem);
+t_list			*ft_list_addone_notvoid(t_list *elem);
 
 #endif
